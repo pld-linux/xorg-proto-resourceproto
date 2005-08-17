@@ -1,4 +1,4 @@
-# $Rev: 3293 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3293 $, $Date: 2005-08-17 20:16:28 $
 #
 Summary:	Resource protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Resource i pomocnicze
@@ -30,6 +30,7 @@ Summary:	Resource protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Rsource i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
+Obsoletes:	resourceext
 
 %description devel
 Resource protocol and ancillary headers.
