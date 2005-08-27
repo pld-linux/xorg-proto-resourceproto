@@ -1,5 +1,3 @@
-# $Rev: 3293 $, $Date: 2005-08-17 20:16:28 $
-#
 Summary:	Resource protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Resource i pomocnicze
 Name:		xorg-proto-resourceproto
@@ -12,9 +10,9 @@ Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/resourceproto-%{version}.
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
 BuildRequires:	pkg-config
-BuildRoot:	%{tmpdir}/resourceproto-%{version}-root-%(id -u -n)
+BuildRequires:	xorg-util-util-macros
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
@@ -24,10 +22,9 @@ Resource protocol and ancillary headers.
 %description -l pl
 Nag³ówki protoko³u Resource i pomocnicze.
 
-
 %package devel
 Summary:	Resource protocol and ancillary headers
-Summary(pl):	Nag³ówki protoko³u Rsource i pomocnicze
+Summary(pl):	Nag³ówki protoko³u Resource i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 Obsoletes:	resourceext
@@ -38,10 +35,8 @@ Resource protocol and ancillary headers.
 %description devel -l pl
 Nag³ówki protoko³u Resource i pomocnicze.
 
-
 %prep
 %setup -q -n resourceproto-%{version}
-
 
 %build
 %{__aclocal}
@@ -51,7 +46,6 @@ Nag³ówki protoko³u Resource i pomocnicze.
 
 %{__make}
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -59,10 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	pkgconfigdir=%{_pkgconfigdir}
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files devel
 %defattr(644,root,root,755)
