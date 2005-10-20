@@ -1,12 +1,12 @@
 Summary:	Resource protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Resource i pomocnicze
 Name:		xorg-proto-resourceproto
-Version:	1.0
-Release:	0.02
+Version:	1.0.1
+Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/resourceproto-%{version}.tar.bz2
-# Source0-md5:	83faf6d7e354848e8ec1bdd5d89ab7a4
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/resourceproto-%{version}.tar.bz2
+# Source0-md5:	2cd11f087cca67382808c5f64579bdf7
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
