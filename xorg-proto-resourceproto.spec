@@ -6,7 +6,7 @@ Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/resourceproto-%{version}.tar.bz2
-# Source0-md5:	e13d7b0aa5c591224f073bbbd9d1b038
+# Source0-md5:	b823b314e37eb19dae1f297951d2e933
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
