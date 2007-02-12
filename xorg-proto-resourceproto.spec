@@ -1,5 +1,5 @@
 Summary:	Resource protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Resource i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Resource i pomocnicze
 Name:		xorg-proto-resourceproto
 Version:	1.0.2
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu Resource i pomocnicze.
 
 %package devel
 Summary:	Resource protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Resource i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Resource i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 Obsoletes:	resourceext
