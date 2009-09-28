@@ -1,5 +1,5 @@
-Summary:	Resource protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Resource i pomocnicze
+Summary:	Resource extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Resource
 Name:		xorg-proto-resourceproto
 Version:	1.1.0
 Release:	1
@@ -14,23 +14,23 @@ BuildRequires:	xorg-util-util-macros >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Resource protocol and ancillary headers.
+Resource extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Resource i pomocnicze.
+Nagłówki rozszerzenia Resource.
 
 %package devel
-Summary:	Resource protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Resource i pomocnicze
+Summary:	Resource extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Resource
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 Obsoletes:	resourceext
 
 %description devel
-Resource protocol and ancillary headers.
+Resource extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Resource i pomocnicze.
+Nagłówki rozszerzenia Resource.
 
 %prep
 %setup -q -n resourceproto-%{version}
