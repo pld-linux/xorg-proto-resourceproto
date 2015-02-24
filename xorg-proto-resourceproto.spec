@@ -2,7 +2,7 @@ Summary:	Resource extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Resource
 Name:		xorg-proto-resourceproto
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/resourceproto-%{version}.tar.bz2
